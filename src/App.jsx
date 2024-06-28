@@ -1,6 +1,10 @@
 import About from "./components/About"
+import Contacts from "./components/Contacts"
+import Exp from "./components/Exp"
+import Footer from "./components/Footer"
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
+import Projects from "./components/Projects"
 import Technologies from "./components/Technologies"
 
 const App = () => {
@@ -16,7 +20,10 @@ const App = () => {
         <Hero />
         <About />
         <Technologies />
-        
+        <Exp />
+        <Projects />
+        <Contacts />
+        <Footer />
       </div>
     </div>
   )

@@ -1,17 +1,32 @@
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 
 const Navbar = () => {
   return (
     <nav className="mb-20 flex items-center justify-between py-6">
         <div className="ml-16 flex flex-shrink-0 items-center">
-            <h4 className="font-semibold">Benedic de Guzman</h4>
+            <motion.h4 
+              initial={{ x: -100, opacity: 0}}
+              animate={{ x: 0, opacity: 1}}
+              transition={{duration: 0.5, delay: 2.5}}
+              className="font-semibold">
+                Benedic de Guzman
+            </motion.h4>
         </div>
-        <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-            <FaLinkedin />
-            <FaGithub />
-        </div>
+        <motion.div 
+          initial={{ x: 100, opacity: 0}}
+          animate={{ x: 0, opacity: 1}}
+          transition={{duration: 0.5, delay: 2.5}}
+          className="m-8 flex items-center justify-center gap-4 text-2xl">
+            <a href="https://www.linkedin.com/in/benedicdgzmn/" className="">
+              <FaLinkedin />
+            </a>
+            <a href="https://github.com/D0minnn">
+              <FaGithub />
+            </a>
+        </motion.div>
 
     </nav>
   )
