@@ -10,7 +10,7 @@ const Navbar = () => {
             <motion.h4 
               initial={{ x: -100, opacity: 0}}
               animate={{ x: 0, opacity: 1}}
-              transition={{duration: 0.5, delay: 2.5}}
+              transition={{duration: 0.5, delay: 1.8}}
               className="font-semibold">
                 Benedic de Guzman
             </motion.h4>
@@ -18,7 +18,7 @@ const Navbar = () => {
         <motion.div 
           initial={{ x: 100, opacity: 0}}
           animate={{ x: 0, opacity: 1}}
-          transition={{duration: 0.5, delay: 2.5}}
+          transition={{duration: 0.5, delay: 1.8}}
           className="m-8 flex items-center justify-center gap-4 text-2xl">
             <a href="https://www.linkedin.com/in/benedicdgzmn/" className="">
               <FaLinkedin />

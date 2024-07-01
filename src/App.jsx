@@ -9,7 +9,7 @@ import Technologies from "./components/Technologies"
 
 const App = () => {
   return (
-    <div className="overflow-x-hidden antialiased selection:bg-green-100 selection:text-gray-500">
+    <div className="overflow-x-hidden antialiased selection:bg-emerald-400 selection:text-slate-100">
       <div className="fixed top-0 -z-10 h-full w-full">
 
       </div>

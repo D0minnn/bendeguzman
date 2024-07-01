@@ -7,8 +7,8 @@ const About = () => {
     <div className="pt-64 pb-24">
       <motion.h1 
         viewport={{ once: true }}
-        whileInView={{ opacity: 1, y: 0 }}
-        initial={{ opacity: 0, y: 100 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        initial={{ opacity: 0, x: -100 }}
         transition={{ duration: 0.5}}
         className="my-20 text-start font-semibold text-5xl">About Me
       </motion.h1>
@@ -17,9 +17,9 @@ const About = () => {
           <div className="flex justify-center lg:justify-start">
             <motion.p 
               viewport={{ once: true }}
-              whileInView={{ opacity: 1, y: 0 }}
-              initial={{ opacity: 0, y: 100 }}
-              transition={{ duration: 0.5}}
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: -100 }}
+              transition={{ duration: 0.8}}
               className="font-medium text-justify text-xl">
               {About_me}
             </motion.p>
@@ -32,8 +32,8 @@ const About = () => {
           <div className="py-20"> 
             <motion.h2 
               viewport={{ once: true }}
-              whileInView={{ opacity: 1, y: 0 }}
-              initial={{ opacity: 0, y: 100 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: -100 }}
               transition={{ duration: 0.5}}
               className="flex lg:justify-start font-semibold text-2xl py-14">
                 Education
@@ -41,24 +41,24 @@ const About = () => {
             <div className="py-4">
               <motion.span 
                 viewport={{ once: true }}
-                whileInView={{ opacity: 1, y: 0 }}
-                initial={{ opacity: 0, y: 100 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                initial={{ opacity: 0, x: -100 }}
                 transition={{ duration: 0.5}}
                 className="flex lg:justify-start font-semibold">
                 Bachelor of Science in Computer Science, Specializing in Intelligent Systems
               </motion.span>
               <motion.span 
                 viewport={{ once: true }}
-                whileInView={{ opacity: 1, y: 0 }}
-                initial={{ opacity: 0, y: 100 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                initial={{ opacity: 0, x: -100 }}
                 transition={{ duration: 0.5}}
                 className="flex lg:justify-start">
                 De La Salle University – Dasmariñas
               </motion.span>
               <motion.span 
                 viewport={{ once: true }}
-                whileInView={{ opacity: 1, y: 0 }}
-                initial={{ opacity: 0, y: 100 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                initial={{ opacity: 0, x: -100 }}
                 transition={{ duration: 0.5}}
                 className="flex lg:justify-start">
                 2020 - 2024
@@ -67,24 +67,24 @@ const About = () => {
             <div className="py-4">
               <motion.span 
                 viewport={{ once: true }}
-                whileInView={{ opacity: 1, y: 0 }}
-                initial={{ opacity: 0, y: 100 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                initial={{ opacity: 0, x: -100 }}
                 transition={{ duration: 0.5}}
                 className="flex lg:justify-start font-semibold">
                 Strand: Science, Technology, Engineering and Mathematics (STEM)
               </motion.span>
               <motion.span 
                 viewport={{ once: true }}
-                whileInView={{ opacity: 1, y: 0 }}
-                initial={{ opacity: 0, y: 100 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                initial={{ opacity: 0, x: -100 }}
                 transition={{ duration: 0.5}}
                 className="flex lg:justify-start">
                 Lyceum of the Philippines University – International School Cavite
               </motion.span>
               <motion.span 
                 viewport={{ once: true }}
-                whileInView={{ opacity: 1, y: 0 }}
-                initial={{ opacity: 0, y: 100 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                initial={{ opacity: 0, x: -100 }}
                 transition={{ duration: 0.5}}
                 className="flex lg:justify-start">
                 2018 - 2020
@@ -94,9 +94,9 @@ const About = () => {
         </div>
         <motion.div 
           viewport={{ once: true }}
-          whileInView={{ opacity: 1, y: 0 }}
-          initial={{ opacity: 0, y: 100 }}
-          transition={{ duration: 0.5}}
+          whileInView={{ opacity: 1, x: 0 }}
+          initial={{ opacity: 0, x: 100 }}
+          transition={{ duration: 0.8}}
           className="w-full lg:w-2/5 lg:pl-12">
             <div className="flex items-center justify-center">
                 <img className="rounded-2xl" src={Gradpic}/>

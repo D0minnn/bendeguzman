@@ -16,29 +16,29 @@ const Hero = () => {
             <div className='w-full lg:w-3/4'>
                 <div className='flex flex-col items-start lg:items-start'>
                     <motion.h1 
-                      variants={container(1.5)}
+                      variants={container(1)}
                       initial="hidden"
                       animate="visible"
-                      className='font-semibold text-7xl'>
-                        HELLO, I'AM
+                      className='font-semibold text-7xl lg:text-9xl'>
+                        HELLO, I AM
                     </motion.h1>
                     <motion.h1 
-                      variants={container(1.7)}
+                      variants={container(1.2)}
                       initial="hidden"
                       animate="visible"
-                      className='font-semibold text-7xl'>
+                      className='font-semibold text-7xl lg:text-9xl'>
                         BENEDIC
                     </motion.h1>
                     <motion.h1 
-                      variants={container(1.9)}
+                      variants={container(1.4)}
                       initial="hidden"
                       animate="visible"
-                      className='font-semibold text-7xl'>
+                      className='font-semibold text-7xl lg:text-9xl'>
                         DE GUZMAN
                     </motion.h1>
                     
                     <motion.span 
-                      variants={container(2)}
+                      variants={container(1.6)}
                       initial="hidden"
                       animate="visible"
                       className='font-semibold text-4xl'>
